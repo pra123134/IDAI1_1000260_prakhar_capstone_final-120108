@@ -1,37 +1,33 @@
-# 👨‍🍳 Chef Game - Smart Kitchen Simulation
+# 👨‍🍳 AI Chef Recipe Generator
 
-Welcome to **Chef Game**, an interactive application that simulates a smart kitchen environment where users can experience cooking challenges, recipe creation, and kitchen management in a fun and engaging way. The game is designed to educate and entertain, making it ideal for culinary students, hobbyist chefs, or anyone interested in food tech and AI-integrated kitchens.
+## Overview
 
----
-
-## 🚀 Features
-
-- 🍲 Interactive Cooking Game Mechanics
-- 🎯 Real-Time Recipe Selection and Execution
-- 🤖 AI-Generated Recipe Suggestions (Integration-Ready)
-- 🧠 Smart Ingredient Management System
-- 📊 Score Tracking and Challenge Evaluation
-- 🔊 Sound and Visual Feedback for User Actions
-- 🌐 Modular Design Ready for Web Integration
+The **AI Chef Recipe Generator** is a Streamlit-based web application that allows users to create recipes based on their preferences, uploaded images, or PDFs. The application integrates **Google’s Gemini API** for generative AI capabilities to provide detailed recipes, including ingredients, step-by-step instructions, cooking time, serving size, and dietary considerations.
 
 ---
 
-## 🧰 Technologies Used
+## ✨ Features
 
-- **Programming Language:** Python
-- **Framework:** Streamlit
-- **Libraries:**
-  - `streamlit` – UI rendering
-  - `random` – Ingredient randomness
-  - `time` – Action timing
-  - `PIL` – (Optional) For image manipulation
-  - `os`, `sys` – File and module handling
+- 🥗 **User Input:** Enter dietary preferences, cuisine type, or available ingredients.
+- 🖼️ **Image Upload:** Upload images of ingredients or dishes for AI-based recipe generation.
+- 📄 **PDF Upload:** Provide additional recipe details or requirements via PDF.
+- 🌍 **AI-Generated Recipes for Cuisines or Seasonal Ingredients:** Receive detailed recipes tailored to different cuisines or seasons.
+- 🍛 **Leftover Ingredient Recipes:** Generate recipes based on leftover ingredients to reduce waste.
+- 🤖 **AI-Generated Recipes:** Fully detailed recipes created by Google’s Gemini AI.
+- 🧑‍💻 **Interactive UI:** User-friendly interface built using Streamlit.
 
 ---
 
-## 🛠️ Installation Instructions
+## 🛠️ Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/chef-game.git
-   cd chef-game
+### ✅ Prerequisites
+
+- Python 3.8 or higher  
+- `pip` (Python package manager)
+
+### 📦 Required Python Libraries
+
+Install the required libraries with:
+
+```bash
+pip install streamlit google-generativeai PyPDF2 Pillow
