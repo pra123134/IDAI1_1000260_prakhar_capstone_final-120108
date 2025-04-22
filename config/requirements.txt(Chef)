@@ -1,0 +1,6 @@
+google.generativeai
+PyPDF2
+PIL
+io
+streamlit
+pandas
